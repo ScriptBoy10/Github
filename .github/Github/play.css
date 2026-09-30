@@ -1,0 +1,170 @@
+body {
+  text-align: center;
+}
+
+* {
+  /* font-size: 28px; */
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+h2 {
+  font-size: 70px;
+}
+
+#reselect {
+  border:2px solid lightblue;
+  border-radius: 8px;
+  background: lightblue;
+}
+a {
+  cursor: pointer;
+  pointer-events: all;
+  color: white;
+  max-width: 100px;
+  width: 100%;
+  text-decoration: none;
+  font-weight: bolder;
+  padding: 10px 8%;
+  border-radius: 10px;
+  text-align: center;
+  font-size:24px
+  
+}
+input{
+  font-size: 1.5em;
+  margin-top: 30px;
+}
+
+.get {
+  color: green;
+  font-size: 55px;
+}
+
+#player_input {
+  max-width: 1300px;
+  width: 100%;
+  padding: 20px;
+  border: 3px solid black;
+  border-radius: 8px;
+  margin-top: 8px;
+  font-size: 20px;
+}
+
+.submit {
+  width: 100px;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#submit {
+  margin-top: 20px;
+  max-width: 120px;
+  width: 100%;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  border: 1px solid green;
+  background: green;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+
+
+#battle {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1700px;
+  width: 100%;
+
+}
+
+
+#first {
+  box-sizing: border-box;
+}
+
+li{
+  list-style: none;
+  border: 3px solid #f2f2f2;
+  width:100%
+}
+
+#player1.show {
+  visibility: visible;
+}
+
+#player1 {
+  visibility: hidden;
+}
+
+#player2.shows {
+  visibility: visible;
+}
+
+#player2 {
+  visibility: hidden;
+}
+
+.page {
+  margin-top: 80px;
+  font-size: 36px;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+span {
+  margin-top: 30px;
+  display: inline-block;
+  max-width: 300px;
+  width: 100%;
+  height: 40px;
+  background: green;
+  padding: 7px auto;
+  border-radius: 10px;
+  cursor: pointer;
+  pointer-events: all;
+}
+#last{
+  margin-top: 80px;
+}
+
+#both{
+  display: flex;
+  justify-content: center;
+}
+#win{
+  font-size: 70px;
+}
+
+#res1{
+  display: inline-block;
+  width: 280px;
+  height: 230px;
+  margin: 10px;
+  font-size: 16px;
+}
+
+#wn, #ls{
+  font-size: 20px;
+  margin: 5px;
+  font-weight: bold;
+}
+
+#btn{
+background-color: green;
+border: 2px solid green;
+border-radius: 10px;
+font-size: 16px;
+margin-top: 110px;
+align-items: center;
+padding: 10px;
+height: 60px;
+max-width: 110px;
+width: 100%;
+}
